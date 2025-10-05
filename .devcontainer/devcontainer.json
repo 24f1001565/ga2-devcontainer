@@ -1,7 +1,9 @@
 {
   "name": "ga2-ad9eef",
   "image": "ghcr.io/devcontainers/python:1",
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
   "postCreateCommand": "pip install fastapi uv",
   "extensions": [
     "astral-sh.uv",
