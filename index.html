@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quarterly Earnings — Reveal.js</title>
+
+  <!-- RevealJS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/solarized.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+</head>
+
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Title Slide -->
+    <section>
+      <h1>Q3 2025 Quarterly Earnings</h1>
+      <p>Prepared for stakeholders</p>
+      <p><small>Email: <strong>24f1001565@ds.study.iitm.ac.in</strong></small></p>
+      <aside class="notes">Welcome the audience and briefly introduce the agenda.</aside>
+    </section>
+
+    <!-- Markdown Slide -->
+    <section data-markdown>
+      <textarea data-template>
+## Result Summary
+
+- **Revenue increased**
+- **Operational cost reduced**
+- **Improved forecasting accuracy**
+
+> This slide is written in Markdown
+
+      </textarea>
+      <aside class="notes">Explain each bullet point with real numbers.</aside>
+    </section>
+
+    <!-- Fragment Animation -->
+    <section>
+      <h2>Business Drivers</h2>
+      <ul>
+        <li class="fragment">Customer retention</li>
+        <li class="fragment">Automation</li>
+        <li class="fragment">Pricing models</li>
+      </ul>
+      <aside class="notes">Use this slide for pacing — reveal points one-by-one.</aside>
+    </section>
+
+    <!-- Code Highlighting -->
+    <section>
+      <h2>Financial Calculation Code</h2>
+      <pre><code class="language-python">
+revenue = 500000
+expenses = 320000
+profit = revenue - expenses
+
+print("Net Profit:", profit)
+      </code></pre>
+      <aside class="notes">Explain this represents simplified revenue logic used in dashboards.</aside>
+    </section>
+
+    <!-- Math -->
+    <section>
+      <h2>Key Formula</h2>
+      <p>Net Profit Margin:</p>
+      <p>\\[
+      \\text{Net Profit Margin} = 
+      \\frac{\\text{Net Income}}{\\text{Revenue}} \times 100
+      \\]</p>
+      <aside class="notes">Explain why this KPI matters for decision making.</aside>
+    </section>
+
+    <!-- Closing -->
+    <section>
+      <h2>Thank You</h2>
+      <p>Contact: <strong>24f1001565@ds.study.iitm.ac.in</strong></p>
+      <aside class="notes">End with Q&A.</aside>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/math/math.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: true,
+    plugins: [ RevealMarkdown, RevealNotes, RevealMath, RevealHighlight ]
+  });
+</script>
+
+</body>
+</html>
